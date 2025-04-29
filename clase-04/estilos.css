@@ -1,0 +1,92 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: hsla(0, 0%, 99%, 0.132);
+    color: #222;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #f2f2f269;
+    padding: 30px 0;
+    border-bottom: 1px solid #cccccc74;
+    text-align: center;
+}
+
+.encabezado h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.encabezado time {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Imagen destacada */
+figure {
+    margin: 30px 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Secciones */
+main h2 {
+    font-size: 20px;
+    margin: 25px 0 10px;
+    color: #0c4b8a;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+/* Fuente */
+.fuente {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.fuente a {
+    color: #0070cc;
+    text-decoration: none;
+}
+
+.fuente a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.pie {
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 13px;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
