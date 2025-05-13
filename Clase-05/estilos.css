@@ -1,0 +1,158 @@
+/* RESET Y BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ENCABEZADO */
+.site-header {
+  background-color: #e9ecef;
+  padding: 30px 0;
+  border-bottom: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.titulo-principal {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #771c08;
+}
+
+.fecha {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* NAVEGACION */
+.navegacion {
+  background-color: #771c08;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.menu li {
+  margin: 10px;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* CONTENIDO */
+.seccion-noticia {
+  margin: 40px 0;
+}
+
+.seccion-noticia h2 {
+  font-size: 22px;
+  color: #212529;
+  margin-bottom: 15px;
+}
+
+.seccion-noticia p {
+  margin-bottom: 15px;
+}
+
+.seccion-noticia ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.seccion-noticia li {
+  margin-bottom: 8px;
+}
+
+/* IMAGEN */
+.imagen-principal {
+  width: 100%;
+  border-radius: 5px;
+  margin: 25px 0 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  font-size: 13px;
+  color: #6c757d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* FUENTE */
+.seccion-noticia a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.seccion-noticia a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.site-footer {
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #dee2e6;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .titulo-principal {
+    font-size: 22px;
+  }
+
+  .seccion-noticia h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenedor {
+    padding: 15px 10px;
+  }
+
+  .titulo-principal {
+    font-size: 20px;
+  }
+
+  .seccion-noticia h2 {
+    font-size: 16px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 5px 0;
+  }
+}
