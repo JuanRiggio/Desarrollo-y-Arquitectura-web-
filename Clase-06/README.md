@@ -3,6 +3,7 @@ Este proyecto es una portada de diario ficticio llamado El Horizonte, desarrolla
 Características
 
 Diseño responsivo: Adaptado para móviles, tablets y monitores usando Flexbox y media queries.
+Estructura: Incluye nombre del diario, fecha, menú de navegación, noticias principales, noticias secundarias y publicidad.
 Menú de navegación: Barra horizontal en escritorio, ícono de hamburguesa en móviles.
 Normalizador: Usa normalize.css para consistencia entre navegadores.
 Archivos CSS separados: styles.css para estilos base y responsive.css para media queries.
