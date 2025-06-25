@@ -1,0 +1,30 @@
+# 🧪 Rick & Morty API Explorer
+
+Este proyecto fue desarrollado como parte de la **Semana 10** de la materia **Desarrollo y Arquitectura Web** (UAI). La actividad consistió en construir una página web interactiva que consuma la API pública de [Rick and Morty](https://rickandmortyapi.com/) para mostrar personajes de la serie, aplicar filtros y presentar los datos de forma visual, clara y responsiva.
+
+---
+
+## ✅ Funcionalidades principales
+
+- 🔄 **Mostrar todos los personajes** disponibles (más de 800) mediante paginación dinámica.
+- 🔍 **Filtrar personajes** por los siguientes campos:
+  - Nombre
+  - Estado (`alive`, `dead`, `unknown`)
+  - Especie
+  - Tipo
+  - Género (`female`, `male`, `genderless`, `unknown`)
+- 🧾 **Renderizado de tarjetas** visuales por personaje con:
+  - Imagen
+  - Nombre
+  - Estado
+  - Especie
+  - Género
+- ❌ **Manejo de errores** en pantalla si no se encuentran resultados o si hay problemas de red.
+- 💡 **Formulario accesible** con atributos ARIA y validación básica.
+- 🎨 **Diseño responsivo y atractivo**, compatible con celulares, tablets y escritorio.
+- 🚀 **Desplegado con GitHub Pages**.
+
+---
+
+## 📂 Estructura del proyecto
+
