@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty API Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rick & Morty</h1>
+    </header>
+    <main>
+        <section class="actions">
+            <button id="getAllCharacters" aria-label="Mostrar todos los personajes">Mostrar Todos los Personajes</button>
+        </section>
+        <section class="filters">
+            <h2>Filtros</h2>
+            <form id="filterForm">
+                <div class="filter-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" aria-label="Filtrar por nombre">
+                </div>
+                <div class="filter-group">
+                    <label for="status">Estado:</label>
+                    <input type="text" id="status" name="status" placeholder="alive, dead, unknown" aria-label="Filtrar por estado">
+                </div>
+                <div class="filter-group">
+                    <label for="species">Especie:</label>
+                    <input type="text" id="species" name="species" aria-label="Filtrar por especie">
+                </div>
+                <div class="filter-group">
+                    <label for="type">Tipo:</label>
+                    <input type="text" id="type" name="type" aria-label="Filtrar por tipo">
+                </div>
+                <div class="filter-group">
+                    <label for="gender">Género:</label>
+                    <input type="text" id="gender" name="gender" placeholder="female, male, genderless, unknown" aria-label="Filtrar por género">
+                </div>
+                <button type="submit" id="filterCharacters" aria-label="Buscar personajes">Buscar Personajes</button>
+            </form>
+        </section>
+        <section id="results">
+            <h2>Resultados</h2>
+            <div id="characterList" class="cards"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Rick & Morty Viewer - UAI</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
